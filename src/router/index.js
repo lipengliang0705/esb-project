@@ -20,6 +20,11 @@ export default new Router({
                     meta: { title: '系统首页' }
                 },
                 {
+                    path: '/dataMonitor',
+                    component: () => import(/* webpackChunkName: "dataMonitor" */ '../components/page/DataMonitor.vue'),
+                    meta: { title: '数据监控' }
+                },
+                {
                     path: '/icon',
                     component: () => import(/* webpackChunkName: "icon" */ '../components/page/Icon.vue'),
                     meta: { title: '自定义图标' }

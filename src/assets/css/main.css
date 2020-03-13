@@ -23,9 +23,9 @@ a {
 
 .content-box {
     position: absolute;
-    left: 250px;
+    left: 210px;
     right: 0;
-    top: 70px;
+    top: 60px;
     bottom: 0;
     padding-bottom: 30px;
     -webkit-transition: left .3s ease-in-out;
@@ -174,4 +174,11 @@ a {
 
 .v-note-wrapper .v-note-panel {
     min-height: 500px;
+}
+/*sidebar*/
+.el-submenu .el-menu-item{
+    background-color: #1f2d3d!important;
+}
+.el-submenu .el-menu-item:hover{
+    background-color: #001528!important;
 }
